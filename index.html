@@ -1,0 +1,160 @@
+<!-- ASI SE HACEN COMENTARIO / o presionando shift alt a -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!-- ETIQUETA PARA LA CODIFICACION DE LA PAGINA -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- COMPATIBILIDAD CON NAVEGADORES OBSOLETOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- LA ESCALA EN LA VISTA DE MI DOCUMENTO (NO CONFUNDIR CON DISEÑO RESPONSIVO) -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- ETIQUETAS DE CABECERA -->
+    <h1>Este es un h1</h1>
+    <h2>este es un h2</h2>
+    <h3>este es un h3</h3>
+    <h4>este es un h4</h4>
+    <h5>este es un h5</h5>
+    <h6>este es un h6</h6>
+
+    <!-- SE PUEDEN PONER VARIAS LINEAS IGUALES CON "etiqueta*numeroDeVecesQueSeRepite" -->
+
+    <!-- ETIQUETAS DE PARRAFOS -->
+
+    <p><em>ipsum, dolor sit amet consectetur adipisicing elit. Recusandae doloremque, quos sunt eaque molestias eum debitis odit, quasi blanditiis, saepe quisquam. Eaque, ipsa labore similique provident modi eos sapiente enim?</em></p>
+
+    <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nobis officiis laborum illo neque, dolore ex velit saepe nam reiciendis esse consequuntur </u> praesentium asperiores sit nihil debitis ea distinctio!</p>
+    <br>
+    <br>
+    <br>
+    <hr style="color: darkorange;">
+    <hr>
+    <hr>
+    <br>
+    <br>
+
+    <p><b>ipsum dolor sit amet consectetur adipisicing elit.</b> Magnam consequatur reprehenderit deleniti delectus dolorum id excepturi omnis? Odit, maxime! Quae velit ad ea <strong> commodi molestiae minus mollitia sequi excepturi.</strong> </p> 
+
+    <p>Lorem <blockquote> dolor, sit amet consectetur adipisicing elit. </blockquote> porro possimus asperiores inventore animi rerum voluptatum magnam, vero voluptatibus distinctio. Impedit sequi cum qui amet voluptate tenetur possimus nihil corporis!</p>
+
+    <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis necessitatibus nobis exercitationem. Dolorum nobis commodi quisquam id, totam ipsa quas quasi mollitia! Reprehenderit voluptatem dolor ab accusantium voluptas aut.</p>
+
+    <!-- ETIQUETAS PARA DARLE FORMATO A LOS TEXTOS -->
+
+    <!-- <em> al inicio para formato italicas y </em> al final de donde quieres el formato --> 
+    <!-- <u> al inicio para subrayar texto y </u> al final del texto  -->
+    <!-- b para poner texto en negritas  -->
+    <!-- <strong> al inicio para lo que quiero resaltar sobre lo demas -->
+    <!-- blockquote sirve para crear un bloque de texto como si fuera una cita -->
+
+    <!-- Los atributos de las etiquetas son una serie de elementos que se pueden agregar a una etiqueta en si para dotarla de mas caracteristicas. (No todas las etiquetas tienen atributos). Estos atributos nos permiten agregar elementos como estilos, identificadores, eventos, etc.
+
+        
+            -Class: Marcan un conjunto de elementos
+            -ID: Marcan un elemento en especifico
+            -Name:Marca el nombre de la etiqueta
+
+        <!-
+        Etiqueta de imagan (img) 
+
+        La etiqueta img nos permite agregar una imagen en un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+        
+        Algunos de los atributos de la etiqueta img son:
+        
+            - src (source): definir la ubicacion del archivo (interna o externa)
+            - width: definir el ancho de la imagen
+            - height define el alto de la imagen
+            - alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+
+
+        -->
+
+        <!-- FORMA PARA AGREGAR IMAGENES EXTERNAS-->
+    <img src="https://pbs.twimg.com/media/FAKHc1nVgAMoYn0.jpg">
+
+    <!-- Forma para agregar imagenes internas -->
+
+    <img src="/PerritoPlayero.jpg" width="50%">
+
+    <!-- Podemos modificar el tamaño o la escala de la imagen, pero se modifica con respecto al lugar donde esta(Contenedor), esto quiere decir que la imagen no se recorta, se recorta el espacio donde se coloca     Tambien se pueden usar las etiquetas height, alt(Esta es para agregar una descripcion de la imagen)-->
+
+    <!-- ETIQUETAS DIVISORIAS Y SEPARADORES
+    
+        - br: nos sirve para dar una separacion (salto de linea)
+        - hr: para mostrar una linea que sirve como separador
+        (El ejemplo esta en los parrafos)
+    -->
+<!--------------------------------------------------------------------------------->
+    <!-- Etiquetas de enlace <a>
+
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+-->
+
+    <!--REFERENCIA A SITIO EXTERNO-->
+    <a href="http://www.google.com" target="_blank" title="Link para google">Este texto me lleva a Google</a>
+
+    <!--REFERENCIA A SITIO O ELEMENTO INTERNO-->
+    <a href="/PerritoPlayero.jpg" target="_blank">Descarga una bonita imagen de perro playero</a>
+  <!-- CON LA ETIQUETA download puedes poner la opcion para descargar-->
+
+<!--
+      src (source): incrustar un recurso (pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+
+-->
+
+    
+<!------------------------------------------------>
+
+    <!--ETIQUETAS PARA LISTAS ORDENADAS Y DESORDENADAS-->
+
+    <!--
+        <ol> ordered list
+        <li> list item
+        <ul> unordered list
+
+    -->
+
+    <h3>LISTAS ORDENADAS</h3>
+
+ <ol type="A">
+    <li>
+        Taquito al pastor
+    </li>
+    <li>
+        taquito de chicharron
+    </li>
+    <li>
+        Taquito de adobada
+    </li>
+    <li>
+        Taquito de carnitas
+    </li>
+    <li>
+        Taquito de suadero
+    </li>
+    
+</ol>
+
+    <h3>LISTA DESORDENADA DE PENDIENTES</h3>
+
+    <ul>
+        <li>Lavar los traste</li>
+        <li>Dormir</li>
+        <li>Jugar Fortnite</li>
+
+    </ul>
+
+
+</body>
+</html>
